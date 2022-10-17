@@ -18,3 +18,7 @@ Created on Mon Oct 17 11:34:41 2022
 
 # Import modules
 import sys, os, arcpy
+
+# Set input variables (Hard-wired)
+inputFile = 'V:/ARGOSTracking/Data/ARGOSData/1997dg.txt'
+outputFC = "V:/ARGOSTracking/Scratch/ARGOStrack.shp"
